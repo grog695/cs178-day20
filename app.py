@@ -9,7 +9,7 @@ def hello():
     html = "<h3>Hello {name}!</h3>" \
            "<b>Hostname:</b> {hostname}<br/>" \
            "<h2>Here is an interesting xkcd cartoon for you: </h2>" \
-           '<img src="https://imgs.xkcd.com/comics/containers.png">'
+           '<img src="c:\Users\Georg\OneDrive\Pictures\Screenshots\Screenshot 2026-04-14 203513.png">'
     return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname())
 
 if __name__ == "__main__":
